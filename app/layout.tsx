@@ -37,7 +37,7 @@ export default async function RootLayout({
           <Navbar currentUser={currentUser} />{" "}
           {/* NavBar. Logo, Search, Hamburgur menu 등.. */}
         </ClientOnly>
-        {children}
+        <div className="pb-20 pt-20">{children}</div>
       </body>
     </html>
   );
